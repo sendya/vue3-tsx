@@ -1,0 +1,17 @@
+@import "default.less";
+
+body {
+  background-color: @noa-default-bg;
+}
+
+/** 页面过场动画 */
+.slide-fade-enter-active {
+  transition: all .3s ease .5s;
+}
+.slide-fade-leave-active {
+  transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.9);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
