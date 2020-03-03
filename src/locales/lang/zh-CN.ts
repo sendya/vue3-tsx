@@ -10,7 +10,8 @@ export default {
       enUS: 'English'
     },
     nav: {
-      home: '首页'
+      home: '首页',
+      page2: '页面2'
     },
     dropMenu: {
       member: '个人中心',

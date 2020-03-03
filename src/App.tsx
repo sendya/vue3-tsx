@@ -1,8 +1,8 @@
-import { createComponent } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 import { LocaleProvider } from 'ant-design-vue'
 import { langState } from '@/locales'
 
-export default createComponent({
+export default defineComponent({
   name: 'App',
   setup () {
     return () => (

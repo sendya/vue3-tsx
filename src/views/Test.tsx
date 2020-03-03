@@ -1,11 +1,11 @@
 import styles from './Test.module.less'
 
-import { createComponent, onMounted } from '@vue/composition-api'
+import { defineComponent, onMounted, SetupContext } from '@vue/composition-api'
 import { Pagination, Select, Radio, DatePicker, TimePicker, Divider } from 'ant-design-vue'
 import { useStore } from '@/store'
 
-export default createComponent({
-  setup (props, { root: { $i18n } }) {
+export default defineComponent({
+  setup (props: {}, { root: { $i18n } }: SetupContext) {
     const store = useStore()
 
     onMounted(() => {

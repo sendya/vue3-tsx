@@ -10,7 +10,7 @@
     "analyz": "vue-cli-service build --mode analyz"
   },
   "dependencies": {
-    "@vue/composition-api": "^0.3.4",
+    "@vue/composition-api": "^0.4.0",
     "ant-design-vue": "^1.4.10",
     "core-js": "^3.4.4",
     "localforage": "^1.7.3",

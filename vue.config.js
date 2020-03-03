@@ -67,7 +67,7 @@ const defaultConfig = {
 
           'primary-color': '#225797',
           'link-color': '#225797',
-          'border-radius-base': '3px'
+          'border-radius-base': '2px'
         },
         // DO NOT REMOVE THIS LINE
         javascriptEnabled: true

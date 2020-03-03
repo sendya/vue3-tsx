@@ -10,7 +10,8 @@ export default {
       enUS: '英文'
     },
     nav: {
-      home: 'Home'
+      home: 'Home',
+      page2: 'Page2'
     },
     dropMenu: {
       member: 'My',

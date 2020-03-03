@@ -41,6 +41,15 @@ export const homeRouters: RouteConfig[] = [
       icon: 'home'
     },
     component: () => import(/* webpackChunkName: "aaka" */'../views/Test')
+  },
+  {
+    path: '/page2',
+    name: 'page2',
+    meta: {
+      title: 'main.nav.page2',
+      icon: ''
+    },
+    component: () => import(/* webpackChunkName: "aaka" */'../views/Page2')
   }
 ]
 
