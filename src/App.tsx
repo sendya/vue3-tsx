@@ -6,7 +6,7 @@ export default defineComponent({
   name: 'App',
   setup () {
     return () => (
-      <LocaleProvider locale={langState.locale}>
+      <LocaleProvider locale={langState.ant}>
         <div id="root">
           <router-view />
         </div>

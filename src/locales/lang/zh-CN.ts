@@ -27,6 +27,8 @@ export default {
       fri: '星期五',
       sat: '星期六',
       sun: '星期日'
-    }
+    },
+    clickme: '点击我!',
+    clickmsg: '你点击了 {number} 次.'
   }
 }

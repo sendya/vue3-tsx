@@ -27,6 +27,8 @@ export default {
       fri: 'Friday',
       sat: 'Saturday',
       sun: 'Sunday'
-    }
+    },
+    clickme: 'Click Me!',
+    clickmsg: 'You clicked {number}.'
   }
 }
