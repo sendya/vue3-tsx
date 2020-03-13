@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import storage from 'localforage'
+import storage from 'store'
 import VueI18n, { LocaleMessage } from 'vue-i18n'
 import VueCompositionApi, { reactive, ref, Ref } from '@vue/composition-api'
 
@@ -49,7 +49,7 @@ const setI18nLanguage = (lang: string) => {
 export const loadLanguageAsync = (lang: string = defaultLang) => {
   return new Promise(resolve => {
     // Save to storage
-    storage.setItem('language', lang)
+    storage.set('language', lang)
     if (i18n.locale !== lang) {
       if (!loadedLanguages.includes(lang)) {
         return import(/* webpackChunkName: "lang-[request]" */ `./lang/${lang}`).then(msg => {
