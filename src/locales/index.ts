@@ -2,7 +2,7 @@ import Vue from 'vue'
 import storage from 'store'
 import VueI18n, { LocaleMessage } from 'vue-i18n'
 import VueCompositionApi, { reactive, ref, Ref } from '@vue/composition-api'
-
+import moment from 'moment'
 import enUS from './lang/en-US'
 
 Vue.use(VueCompositionApi)
@@ -59,6 +59,7 @@ export const loadLanguageAsync = (lang: string = defaultLang) => {
           loadedLanguages.push(lang)
           langState.locale = lang
           langState.ant = locale.antLocale
+          moment.locale(locale.momentName, locale.momentLocale)
           return resolve(setI18nLanguage(lang))
         })
       }

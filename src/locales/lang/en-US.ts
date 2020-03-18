@@ -1,7 +1,10 @@
 import enUS from 'ant-design-vue/es/locale-provider/en_US'
+import momentENUS from 'moment/locale/eu'
 
 export default {
   antLocale: enUS,
+  momentName: 'eu',
+  momentLocale: momentENUS,
   main: {
     test: 'Test',
     lang: {

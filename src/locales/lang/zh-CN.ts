@@ -1,7 +1,10 @@
 import zhCN from 'ant-design-vue/es/locale-provider/zh_CN'
+import momentZHCN from 'moment/locale/zh-cn'
 
 export default {
   antLocale: zhCN,
+  momentName: 'zh-cn',
+  momentLocale: momentZHCN,
   main: {
     test: '测试',
     lang: {
