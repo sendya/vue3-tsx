@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@vue/composition-api": "^0.4.0",
-    "ant-design-vue": "^1.4.10",
+    "ant-design-vue": "^1.5.0-rc.4",
     "core-js": "^3.4.4",
     "lodash.throttle": "^4.1.1",
     "noa-player": "^1.0.8-1",
