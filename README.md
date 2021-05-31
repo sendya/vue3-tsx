@@ -4,6 +4,8 @@ Vue TypeScript
 
 
 ## Project setup
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsendya%2Fvue3-tsx.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsendya%2Fvue3-tsx?ref=badge_shield)
+
 
 ```bash
 # Modules download
@@ -58,3 +60,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsendya%2Fvue3-tsx.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsendya%2Fvue3-tsx?ref=badge_large)
